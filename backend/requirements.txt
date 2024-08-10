@@ -1,0 +1,10 @@
+Flask
+flask-cors
+pillow
+opencv-python
+numpy
+tensorflow
+keras-models
+gunicorn
+chardet
+# Add other dependencies like tensorflow, torch, etc.

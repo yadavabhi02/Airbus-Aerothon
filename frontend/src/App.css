@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #282c34;
+  padding: 1rem;
+  color: white;
+}
+
+.footer {
+  background-color: #282c34;
+  padding: 1rem;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.image-upload {
+  border: 1px solid #f2f2f2;
+}
+
+.image-upload form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-upload input[type="file"] {
+  
+}
+
+.image-upload button {
+  padding: 0.5rem 1rem;
+  background-color: #61dafb;
+  border: none;
+  cursor: pointer;
+}
+
+.image-display {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.uploaded-image {
+  max-width: 300px;
+  margin-right: 1rem;
+}
+
+.image-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  max-width: 300px;
+}
